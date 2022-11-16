@@ -1,0 +1,9 @@
+.container-right{
+    width: 1000px;
+    height: 1024px;
+    background-color: #E4E4E4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

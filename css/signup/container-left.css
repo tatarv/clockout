@@ -1,0 +1,95 @@
+
+.container-left{
+  width: 1000px;
+  height: 1024px;
+}
+.login{
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+}
+.form-title{
+  font-family: Inter-Bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.div-nome{
+  padding-top: 50px;
+}
+.div-email{
+padding-top: 50px;
+}
+.div-senha{
+padding-top:50px;
+}
+.div-confirm-senha{
+padding-top: 50px;
+}
+.input-nome{
+font-family: Inter-Bold;
+width: 500px;
+height: 40px;
+font-size: 1.5rem;
+color:var(--grey-color);
+border-bottom: 2px solid black
+}
+.input-email{
+  font-family: Inter-Bold;
+  width: 500px;
+  height: 40px;
+  font-size: 1.5rem;
+  color:var(--grey-color);
+  border-bottom: 2px solid black
+}
+.input-senha{
+  font-family: Inter-Bold;
+  width: 500px;
+  height: 40px;
+  font-size: 1.5rem;
+  color:var(--grey-color);
+  border-bottom: 2px solid black
+}
+
+.input-confirm-senha{
+  font-family: Inter-Bold;
+  width: 500px;
+  height: 40px;
+  font-size: 1.5rem;
+  color:var(--grey-color);
+  border-bottom: 2px solid black
+}
+.password-link{
+font-family: Inter-Bold;
+font-size: 1rem;
+color:var(--primary-color);
+line-height: 1.5;
+
+}
+  .button-finish{
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+.btFinish{
+  font-family: Inter-Bold;
+  font-size: 1rem;
+  color: white;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 500px;
+  height: 50px;
+  background-color: var(--primary-color);
+  border-radius: 20px;
+  transition: all 0.4s;
+}
